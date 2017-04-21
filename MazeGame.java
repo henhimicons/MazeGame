@@ -418,9 +418,7 @@ public class MazeGame {
          /*
          while (sysin.hasNext()==false&&isGameEnd()==false){
          }*/
-         printStatus();
-         printBoard();
-         printHelp();
+         
          while (!isGameEnd()){
              //System.out.println("action");
              String action = sysin.nextLine();
